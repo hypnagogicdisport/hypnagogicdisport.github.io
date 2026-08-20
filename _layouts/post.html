@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<article>
+  <h2>{{ page.title }}</h2>
+  <span class="date">{{ page.date | date: "%b %d, %Y" }}</span>
+  <div>{{ content }}</div>
+  <p><a href="{{ "/" | relative_url }}">← back</a></p>
+</article>
